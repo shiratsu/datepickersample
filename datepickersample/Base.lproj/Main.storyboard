@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="datepickersample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,70 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VVo-F6-gOW">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="U2s-lG-JfN"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8yT-Vk-qpy">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="toF-hf-iUh"/>
+                                </connections>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8yT-Vk-qpy" firstAttribute="trailing" secondItem="VVo-F6-gOW" secondAttribute="trailing" id="0dB-ZJ-Zdm"/>
+                            <constraint firstItem="8yT-Vk-qpy" firstAttribute="leading" secondItem="VVo-F6-gOW" secondAttribute="leading" id="4Sq-qj-78a"/>
+                            <constraint firstItem="VVo-F6-gOW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="119" id="DIa-0d-LFl"/>
+                            <constraint firstItem="VVo-F6-gOW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="78" id="KBY-9s-jcI"/>
+                            <constraint firstAttribute="centerX" secondItem="VVo-F6-gOW" secondAttribute="centerX" id="W0Z-Vm-QA6"/>
+                            <constraint firstItem="8yT-Vk-qpy" firstAttribute="top" secondItem="VVo-F6-gOW" secondAttribute="bottom" constant="115" id="xe8-a4-Wmd"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="VVo-F6-gOW"/>
+                                <exclude reference="8yT-Vk-qpy"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="DIa-0d-LFl"/>
+                                <exclude reference="KBY-9s-jcI"/>
+                                <exclude reference="W0Z-Vm-QA6"/>
+                                <exclude reference="0dB-ZJ-Zdm"/>
+                                <exclude reference="4Sq-qj-78a"/>
+                                <exclude reference="xe8-a4-Wmd"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="VVo-F6-gOW"/>
+                                <include reference="8yT-Vk-qpy"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="DIa-0d-LFl"/>
+                                <include reference="KBY-9s-jcI"/>
+                                <include reference="W0Z-Vm-QA6"/>
+                                <include reference="0dB-ZJ-Zdm"/>
+                                <include reference="4Sq-qj-78a"/>
+                                <include reference="xe8-a4-Wmd"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="first_text" destination="VVo-F6-gOW" id="qau-ct-IhR"/>
+                        <outlet property="second_text" destination="8yT-Vk-qpy" id="H1M-av-GCc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="339" y="429"/>
         </scene>
     </scenes>
 </document>
