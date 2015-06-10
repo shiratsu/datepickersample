@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		584AA3791B288ED5006B5C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AA3781B288ED5006B5C5C /* AppDelegate.swift */; };
+		584AA37B1B288ED5006B5C5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AA37A1B288ED5006B5C5C /* ViewController.swift */; };
+		584AA37E1B288ED5006B5C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584AA37C1B288ED5006B5C5C /* Main.storyboard */; };
+		584AA3801B288ED5006B5C5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584AA37F1B288ED5006B5C5C /* Images.xcassets */; };
+		584AA3831B288ED5006B5C5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 584AA3811B288ED5006B5C5C /* LaunchScreen.xib */; };
+		584AA38F1B288ED5006B5C5C /* datepickersampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AA38E1B288ED5006B5C5C /* datepickersampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584AA3891B288ED5006B5C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584AA36B1B288ED5006B5C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584AA3721B288ED5006B5C5C;
+			remoteInfo = datepickersample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		584AA3731B288ED5006B5C5C /* datepickersample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datepickersample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584AA3771B288ED5006B5C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584AA3781B288ED5006B5C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		584AA37A1B288ED5006B5C5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		584AA37D1B288ED5006B5C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		584AA37F1B288ED5006B5C5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		584AA3821B288ED5006B5C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		584AA3881B288ED5006B5C5C /* datepickersampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datepickersampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		584AA38D1B288ED5006B5C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584AA38E1B288ED5006B5C5C /* datepickersampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datepickersampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584AA3701B288ED5006B5C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584AA3851B288ED5006B5C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		584AA36A1B288ED5006B5C5C = {
+			isa = PBXGroup;
+			children = (
+				584AA3751B288ED5006B5C5C /* datepickersample */,
+				584AA38B1B288ED5006B5C5C /* datepickersampleTests */,
+				584AA3741B288ED5006B5C5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		584AA3741B288ED5006B5C5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				584AA3731B288ED5006B5C5C /* datepickersample.app */,
+				584AA3881B288ED5006B5C5C /* datepickersampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584AA3751B288ED5006B5C5C /* datepickersample */ = {
+			isa = PBXGroup;
+			children = (
+				584AA3781B288ED5006B5C5C /* AppDelegate.swift */,
+				584AA37A1B288ED5006B5C5C /* ViewController.swift */,
+				584AA37C1B288ED5006B5C5C /* Main.storyboard */,
+				584AA37F1B288ED5006B5C5C /* Images.xcassets */,
+				584AA3811B288ED5006B5C5C /* LaunchScreen.xib */,
+				584AA3761B288ED5006B5C5C /* Supporting Files */,
+			);
+			path = datepickersample;
+			sourceTree = "<group>";
+		};
+		584AA3761B288ED5006B5C5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584AA3771B288ED5006B5C5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		584AA38B1B288ED5006B5C5C /* datepickersampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				584AA38E1B288ED5006B5C5C /* datepickersampleTests.swift */,
+				584AA38C1B288ED5006B5C5C /* Supporting Files */,
+			);
+			path = datepickersampleTests;
+			sourceTree = "<group>";
+		};
+		584AA38C1B288ED5006B5C5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584AA38D1B288ED5006B5C5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		584AA3721B288ED5006B5C5C /* datepickersample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584AA3921B288ED5006B5C5C /* Build configuration list for PBXNativeTarget "datepickersample" */;
+			buildPhases = (
+				584AA36F1B288ED5006B5C5C /* Sources */,
+				584AA3701B288ED5006B5C5C /* Frameworks */,
+				584AA3711B288ED5006B5C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = datepickersample;
+			productName = datepickersample;
+			productReference = 584AA3731B288ED5006B5C5C /* datepickersample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		584AA3871B288ED5006B5C5C /* datepickersampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584AA3951B288ED5006B5C5C /* Build configuration list for PBXNativeTarget "datepickersampleTests" */;
+			buildPhases = (
+				584AA3841B288ED5006B5C5C /* Sources */,
+				584AA3851B288ED5006B5C5C /* Frameworks */,
+				584AA3861B288ED5006B5C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584AA38A1B288ED5006B5C5C /* PBXTargetDependency */,
+			);
+			name = datepickersampleTests;
+			productName = datepickersampleTests;
+			productReference = 584AA3881B288ED5006B5C5C /* datepickersampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		584AA36B1B288ED5006B5C5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "HIRATSUKA SHUNSUKE";
+				TargetAttributes = {
+					584AA3721B288ED5006B5C5C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					584AA3871B288ED5006B5C5C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 584AA3721B288ED5006B5C5C;
+					};
+				};
+			};
+			buildConfigurationList = 584AA36E1B288ED5006B5C5C /* Build configuration list for PBXProject "datepickersample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 584AA36A1B288ED5006B5C5C;
+			productRefGroup = 584AA3741B288ED5006B5C5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584AA3721B288ED5006B5C5C /* datepickersample */,
+				584AA3871B288ED5006B5C5C /* datepickersampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584AA3711B288ED5006B5C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584AA37E1B288ED5006B5C5C /* Main.storyboard in Resources */,
+				584AA3831B288ED5006B5C5C /* LaunchScreen.xib in Resources */,
+				584AA3801B288ED5006B5C5C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584AA3861B288ED5006B5C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		584AA36F1B288ED5006B5C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584AA37B1B288ED5006B5C5C /* ViewController.swift in Sources */,
+				584AA3791B288ED5006B5C5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584AA3841B288ED5006B5C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584AA38F1B288ED5006B5C5C /* datepickersampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		584AA38A1B288ED5006B5C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584AA3721B288ED5006B5C5C /* datepickersample */;
+			targetProxy = 584AA3891B288ED5006B5C5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		584AA37C1B288ED5006B5C5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584AA37D1B288ED5006B5C5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		584AA3811B288ED5006B5C5C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584AA3821B288ED5006B5C5C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		584AA3901B288ED5006B5C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		584AA3911B288ED5006B5C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584AA3931B288ED5006B5C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = datepickersample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		584AA3941B288ED5006B5C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = datepickersample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		584AA3961B288ED5006B5C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = datepickersampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/datepickersample.app/datepickersample";
+			};
+			name = Debug;
+		};
+		584AA3971B288ED5006B5C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = datepickersampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/datepickersample.app/datepickersample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		584AA36E1B288ED5006B5C5C /* Build configuration list for PBXProject "datepickersample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584AA3901B288ED5006B5C5C /* Debug */,
+				584AA3911B288ED5006B5C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584AA3921B288ED5006B5C5C /* Build configuration list for PBXNativeTarget "datepickersample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584AA3931B288ED5006B5C5C /* Debug */,
+				584AA3941B288ED5006B5C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		584AA3951B288ED5006B5C5C /* Build configuration list for PBXNativeTarget "datepickersampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584AA3961B288ED5006B5C5C /* Debug */,
+				584AA3971B288ED5006B5C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 584AA36B1B288ED5006B5C5C /* Project object */;
+}
